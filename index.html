@@ -1,275 +1,213 @@
-
-<!DOCTYPE HTML>
+<!doctype html>
 <html>
+
 <head>
-<title>Home | Ruinan Wang</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-1.11.0.min.js"></script>
-<!-- Custom Theme files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<!-- Custom Theme files -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }>
-</script>
-<meta name="keywords" content="Stylo Responsive web template, Bootstrap Web Templates, Flat Web Templates, AndriodCompatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<!--Google Fonts-->
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-</script>
-<!-- //end-smoth-scrolling -->
-<!---pop-up-box---->
-					<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
-					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-					<!---//pop-up-box---->
+  <title> Ruinan (Nancy) Wang </title>
+  <meta charset="utf-8">
+  <meta name="Homepage" http-equiv="Content-Type" content="Homepage">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nunito" />
+  <link href="./hover.css" rel="stylesheet">
+
+  <style type="text/css">
+    li div {
+      text-align: right;
+    }
+
+    li div span {
+      float: left;
+    }
+
+    div li p {
+      display: inline;
+    }
+
+    .publogo {
+      margin-right: 20px;
+    }
+
+    .publication {
+      padding-left: 10px;
+      padding-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .publication strong a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .publication strong a:hover {
+      text-decoration: underline;
+    }
+
+    .publication .links a {
+      margin-right: 15px;
+    }
+
+    .press {
+      display: inline-block;
+      padding: 5px;
+      height: 70px;
+    }
+
+    .press a img {
+      border: 3px solid #fff;
+      border-ra truncated 1065bytes...
+    }
+
+    .new {
+      color: #D10C15;
+      font-weight: bold;
+    }
+  </style>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150364978-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-150364978-1');
+  </script>
+
+  <script type="text/javascript" language="JavaScript">
+    var imgs = ['"images/nancy.jpg"'];
+    var num_imgs = imgs.length;
+
+    start = '<img src=';
+    end = ' id="me" height="30%" itemprop="photo" class="float-left img-fluid">';
+
+    function printImage() {
+      var rand_int = Math.floor(Math.random() * num_imgs);
+      document.write(start + imgs[rand_int] + end);
+    }
+  </script>
 </head>
+
 <body>
-<!--header start here-->
-<div class="header">
-   <div class="container">
-		<div class="header-top">
-				     <div id="small-dialog" class="mfp-hide">
-					    <div class="search-top">
-							<div class="login">
-								<input type="submit" value="">
-								<input type="text" value="Search Here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
-							</div>
-							<p>My Gallery</p>
-						</div>
-					</div>
-		  	 <div class="top-navg">
-	    	           <span class="menu"> <img src="images/icon.png" alt=""/></span>
-	    	    <nav class="cl-effect-1">
-					<ul class="res">
-					    <li><a class="scroll active" href="#home">Home</a></li>
-						<li><a class="scroll" href="#portfolio">Bio</a></li>
-						<li><a href="download/Resume_Ruinan_Wang.pdf" target="_blank">
-							Resume</a></li>
-						<li><a class="scroll" href="#team">Sample Works</a></li>
-						<li><a class="scroll" href="#contact">Contact</a></li>
-					 </ul>
-				 </nav>
+  <div class="topbar">
+    <div class="container">
+      <div>
+        <div class="row mt-3">
+          <br>
+          <!--Empty; for layout only. -->
+        </div>
+        <div class="row mt-0">
+          <div class="col-2 col-sm-2 col-md-2 col-lg-2 p-0 pl-0 pl-sm-4 offset-xl-1 col-xl-3" height='50%' style="margin-bottom: 3%;">
+            <script type="text/javascript" language="JavaScript">
+              printImage();
+            </script>
+          </div>
 
-					<!-- script-for-menu -->
-						 <script>
-						   $( "span.menu" ).click(function() {
-							 $( "ul.res" ).slideToggle( 300, function() {
-							 // Animation complete.
-							  });
-							 });
-						</script>
-		        <!-- /script-for-menu -->
-		   </div>
+          <div
+            class="col-10 col-sm-10 col-md-10 col-lg-10 pl-3 pr-1 px-sm-4 pl-md-5 pt-1 pb-1 pb-sm-1 pt-sm-1 nameplate col-xl-7 offset-xl-0">
+            <h2><span itemprop="name">Ruinan (Nancy) Wang</span></h2>
+            <p class="my-0">Computer Science Masters student at Stanford University 
+              <br>
+                <img src="images/mail.jpg" width="30">
+                nancyrnw [at] stanford [dot] edu
+              <br>
+            </p>
+            <br>
+            <p>
+              I am a Masters Student at the <a href="https://cs.stanford.edu/" target="_blank">Stanford Computer Science Department</a>. 
+              I am part of the <a href="https://iliad.stanford.edu" target="_blank">Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD)</a>, advised by <a href="https://dorsa.fyiadvised" target="_blank">Dorsa Sadigh</a>.
+              My current interests are in the robotics, including imitation learning and learning from imperfect demonstrations. 
+            </p>
+              <img src="images/linkedin.jpg" width="20">
+              <a href="https://www.linkedin.com/in/wangruinan/" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-	  			<div class="clearfix"> </div>
-	    </div>
-	    	<div class="photo">
-	  			<img src="images/person.jpg" class='img-responsive' alt="" />
-	  		</div>
+  <!-- Teaching -->
+  <div class="container">
+    <div>
+      <div class="row mb-3">
+        <div class="col-12 pt-3  px-4 bubble offset-xl-1 col-xl-10">
+          <h4>Teaching Assistantships</h4>
+          <ul>
+            <li>
+              <p>
+                <strong>Fall 2020</strong>: <a href="https://cs145-fa20.github.io" target="_blank">Stanford CS145</a> Data Management
+                and Data Systems.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-	    	<div class="filter">
+  <!-- Projects -->
+  <div class="container">
+    <div>
+      <div class="row mb-3">
+        <div class="col-12 pt-3  px-4 bubble offset-xl-1 col-xl-10">
+          <h4>Projects</h4>
 
-	    		<div class="gallery-top">
-			    	<h3 id="welcomeText">WELCOME</h3>
-			    	<img src="images/circles.png" alt=""/>
-				</div>
+          <div class="publication media">
+            <div class="media-body">
+              <img src="images/cs224n.png" class="publogo img-fluid float-left rounded g" width="120" <="" a="">
+              <p><strong>Attention Augmentation of BiDAF on SQuAD 2.0</strong><br>
+                Built a QA system that gives accurate answers for reading comprehension tasks on the SQuAD 2.0 dataset. 
+                On top of the BiDAF baseline model we experimented with the combinations of character embeddings, self-attention mechanisms, 
+                self-attention, CNN encoder blocks and coattention mechanisms to improve the F1 and EM performance of the model. <a href="docs/cs224n.pdf" target="_blank">[Report]</a> <br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-	  		  	<div class="banner">
-	  				<h1 style="margin-bottom:20px">Ruinan Wang</h1>
-	  				<p>Computer science undergraduate at Georgia Institute of Technology</p>
-	  				<p>Has a passion for web development, robotics programming, innovating</p>
-	  		  	</div>
-	  		</div>
-	  </div>
-</div>
-<!--header end here-->
+  <!-- Misc -->
+  <div class="container">
+    <div>
+      <div class="row mt-3 mb-3">
+        <div class="col-12 pt-3  px-4 bubble offset-xl-1 col-xl-10" id='misc'>
+          <h4>Misc</h4>
+          <ul>
+            <li>
+              <p>I run the social media platforms for <a href="https://mp.weixin.qq.com/s/LJHYh-dEkw2Y534OPuoQ8w" target="_blank">ACSSS</a> (Association of Chinese Students and Scholars at Stanford).</p>
+            </li>
+            <li>
+              <p>My recent hobbies: skiing, tennis, golf, dancing (Jazz, kpop).</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!--gallery start here-->
-<div class="gallery" id="portfolio">
-	<div class="container">
-		<div class="gallery-main">
-			<div class="gallery-top">
-			    <h3>Bio</h3>
-			    <img src="images/circles.png" alt=""/>
-			    <p>"To apply my knowledge in computer science to explore endless possibilities and give back to the society."</p>
-			</div>
+  <!-- Footer -->
+  <div class="container">
+    <div>
+      <div class="row mt-3 mb-3">
+        <div class="col-12 pt-3  px-4 bubble offset-xl-1 col-xl-10" id='footer'>
+          <p>Last updated: 11/1/2021</p>
+          <p>*Template adapted from Boxiao Pan.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-			<div class="about">
-				<div class="container">
-					<div class="about-main">
-						<div class="col-md-6 ab-left">
-							<h4>Name: Ruinan Wang</h4>
-							<h4>University: Georgia Institute of Technology</h4>
-							<h4>Major: Computer science</h4>
-							<h4 style="margin-bottom:50px">Minor: Economics</h4>
-							<h4>Professional Interests: </h4>
-							<h3>Web development, robotics programming, front-end designing</h3>
-							<h4>Personal Interests: </h4>
-							<h3>Volunteering, tutoring, skiing, swimming, dancing</h3>
-							<h4>Skills:</h4>
-							<h3>Java, Intelitek Easy C (robotics programming), Single-chip machine language, HTML, CSS</h3>
-						</div>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+    integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+    integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
 
-						<div class="col-md-6 ab-left">
-							<h4>Involvement: Volunteer Teacher at Beijing Migrant School</p>
-							<h3>• Took Full responsibility of the fourth grade English curriculum, preparing students for district standardize tests</h3>
-							<h3>• Built a website for volunteering weekly blogs</h3>
-							<h4>Leadership: President of Academic Department in RDFZ School Student Union</h4>
-							<h3>• Organized peer tutoring, Speech Competition, Vocabulary Competitions</h3>
-							<h3>• Built and maintained an interactive platform on the department public page and provided academic materials</h3>
-							<h4>Key Projects:</h4>
-							<h3>Habbit Pets Web Application, VEX robot design and control, Chinese Calligraphy Grip Design, Solar Energy Street Light Design</h3>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!--gallery  end here-->
-
-<!--weare start here-->
-
-
-<!--team start here-->
- <div class="team" id='team'>
-	  	<div class="container wrapper">
-	  		<div class="team-top">
-	  			<h3>Sample Works</h3>
-	  			<img src="images/circles.png" alt=""/>
-	  		</div>
-	  		<div class="github">
-	  			<h4>Project open sourse code avaiable on github: ruinanwang</h4>
-	  			<a href="https://github.com/ruinanwang" target="_blank">
-	  				<img src="images/github.jpg" alt=""/>
-	  			</a>
-	  		</div>
-	  		<div class="team-bottom">
-	  		<div class="friend">
-	  			<div class="col-md-6">
-	  				<img src="images/habitpets.jpg" class="img-responsive habitpets" alt=""/>
-	  			</div>
-	  			<div class="col-md-6 friend-desc">
-	  				<h3><a href="http://www.habitpets.com" target="_blank">Habit Pets Web Application</a></h3>
-	  				<h4>Front-end developer</h4>
-	  				<p>• Integrated modern gamification and virtual pets for affection-oriented education and habit building</p>
-	  				<p>• Based front-end programs on Java Script, JQuery and bootstrap, and back-end programs on PHP, MySQL, the CodeIgniter framework</p>
-	  				<p>• Application available at:
-	  					<a href="http://www.habitpets.com" target="_blank"> www.habitpets.com </a>
-	  				</p>
-	  				<p>• Github source:
-	  					<a href="https://github.com/ruinanwang/habit-pets" target="_blank"> here </a>
-	  				</p>
-	  			</div>
-	  		    <div class="clearfix"> </div>
-	  		</div>
-	  		<div class="friend">
-	  		   <div class="col-md-6 friend-desc">
-	  				<h3>VEX Robotics</h3>
-	  				<h4>Chief robotics programmer</h4>
-	  				<p>• Programmed for automatic and manual robotics competitions using the Intelitek Easy C language</p>
-	  				<p>• Controlled robots to catch balls with aluminum intake strips, launch into small baskets a few meter away using photoelectric sensors, cam, and elastic bands</p>
-	  			</div>
-	  			<div class="col-md-6">
-	  				<img src="images/vex.jpg" class="img-responsive habitpets" alt=""/>
-	  			</div>
-	  		</div>
-	  		<div class="friend">
-	  			<div class="col-md-12 friend-desc" style="margin-top:50px">
-	  				<h3><a href="https://wiki.robojackets.org/w/Main_Page" target="_blank">Robo-Jackets</a></h3>
-	  				<h4>Software Engineer of Robo-Racing team</h4>
-	  				<p>• Develop visual algorithms for automated vehicles</p>
-	  				<p>• Github source:
-	  					<a href="https://github.com/ruinanwang/roboracing-software" target="_blank"> here </a>
-	  				</p>
-	  			</div>
-	  		    <div class="clearfix"> </div>
-	  		</div>
-	  	</div>
-	 </div>
-</div>
-<!--team end here-->
-
-<!--light-box-files -->
-		<script src="js/jquery.chocolat.js"></script>
-		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
-		<!--light-box-files -->
-		<script type="text/javascript" charset="utf-8">
-		$(function() {
-			$('.gallery-bottom a').Chocolat();
-		});
-		</script>
-<!--contact start here-->
-<div class="contact" id="contact">
-	<div class="container">
-		<div class="contact-main">
-			   	<div class="contact-top">
-			   	   <h3>Contact Ruinan Wang</h3>
-			   	   <img src="images/circles.png" alt="">
-			   	</div>
-
-			   	<div class="col-md-4">
-	  				<div class="mail">
-	  					<img src="images/mail.jpg" class='img-responsive' alt="" />
-	  				</div>
-	  				<div class="email">
-						<h4><a href="mailto:rwang391@gatech.edu" target="_top">rwang391@gatech.edu</a></h4>
-					</div>
-	  			</div>
-
-				<div class="col-md-4 linkedin">
-					<a href="https://www.linkedin.com/in/wangruinan" target="_blank">
-						<img src="images/linkedin.jpg" class='img-responsive' alt="" />
-					</a>
-					<div style="margin-top:10px">
-						<h4> <a href="https://www.linkedin.com/in/wangruinan" target="_blank">LinkedIn</a></h4>
-					</div>
-				</div>
-
-
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<!--contact end here-->
-<!--map start here-->
-<div class="map">
-	<iframe src="https://www.google.com/maps/embed/v1/place?q=Georgia+Institute+of+Technology,+Atlanta,+GA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"> </iframe>
-</div>
-<!--map end here-->
-<!--copyrights start here-->
-<div class="copy-rights">
-	<div class="container">
-		<script type="text/javascript">
-										$(document).ready(function() {
-											/*
-											var defaults = {
-									  			containerID: 'toTop', // fading element id
-												containerHoverID: 'toTopHover', // fading element hover id
-												scrollSpeed: 1200,
-												easingType: 'linear'
-									 		};
-											*/
-
-											$().UItoTop({ easingType: 'easeOutQuart' });
-
-										});
-									</script>
-						<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-
-	</div>
-</div>
-<!--copyright end here-->
 </body>
+
 </html>
